@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+.frame1 {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.clg-title {
+    color: white;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.clg-logo {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    margin-right: 900px;
+    margin-top: -70px;
+    border-radius: 10px;
+}
+
+.frame2 {
+    background-color: skyblue;
+    width: 100%;
+    height: 100vh;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: block;
+
+}
+
+.registration {
+    color: black;
+    font-size: .7cm;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.sy {
+    color: black;
+    font-size: .7cm;
+    text-decoration: none;
+
+}
+.ty {
+    color: black;
+    font-size: .7cm;
+    text-decoration: none;
+}
+.btech {
+    color: black;
+    font-size: .7cm;
+    text-decoration: none;
+}
